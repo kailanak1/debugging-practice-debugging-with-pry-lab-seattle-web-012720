@@ -13,8 +13,8 @@ end
 
 def greet_crew(crew)
   greeting = [] 
-  n = crew.each {|crew_member| greeting.push("Hello #{crew_member}.")}
-  greeting << n 
+ crew.each {|crew_member| greeting.push("Hello #{crew_member}.")}
+  greeting 
 end
 
 def engage
